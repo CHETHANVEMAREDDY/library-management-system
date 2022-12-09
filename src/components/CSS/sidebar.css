@@ -1,0 +1,51 @@
+.side-bar {
+  display: flex;
+  position: fixed;
+  border-radius: 2px;
+  min-width: 5rem;
+  max-width: 10rem;
+  flex-direction: column;
+  padding: 0.6rem 1.4rem;
+  background-color: rgba(26, 84, 201, 0.951);
+  z-index: 99;
+  justify-content: flex-start;
+  color: #fff;
+  border: 1px solid #ffffff59;
+  height: 100vh;
+  transition: all 0.5s;
+  opacity: 0.9;
+}
+
+.side-bar:hover {
+  display: flex;
+  opacity: 1;
+}
+.profile-container {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border-bottom: 0.5px solid #ffffff2e;
+}
+.link {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.iState img {
+  width: 100%;
+}
+.iState {
+  border-bottom: 0.1px solid transparent;
+  transition: all 0.4s;
+}
+.iState:hover {
+  border-bottom: 0.1px solid #fff;
+}
+.fix {
+  position: absolute;
+  bottom: 0;
+}

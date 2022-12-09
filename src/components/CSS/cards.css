@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;500&display=swap");
+
+.cardWrapper {
+  display: flex;
+  width: 70%;
+  position: absolute;
+  left: 20%;
+  scroll-behavior: smooth;
+  margin: 35vh auto;
+  flex-direction: column;
+}
+.sec2 {
+  display: flex;
+  justify-content: center;
+}
+.sec1 {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 15rem;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin: 20px;
+  max-width: 30rem;
+  z-index: 20;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.card:hover {
+  opacity: 1;
+}
+.fs-sm {
+  font-size: 0.9rem;
+
+  font-weight: 300;
+  line-height: 1.5;
+  font-family: "Lexend", sans-serif;
+  color: rgb(82, 82, 82);
+}
+.heading {
+  color: #111115;
+}
+.img {
+  position: absolute;
+  width: 70%;
+  top: -8rem;
+}
+.img img {
+  width: 100%;
+}

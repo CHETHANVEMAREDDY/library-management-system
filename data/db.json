@@ -1,0 +1,59 @@
+{
+  "books": [{}],
+  "users": [
+    {
+      "id": 1,
+      "name": "test",
+      "email": "test@gmail.com",
+      "contact": 987464864
+    },
+    {
+      "name": "Rony",
+      "email": "rony@gmail.com",
+      "contact": "987654321",
+      "id": 2
+    },
+    {
+      "name": "Rahul C",
+      "email": "rahul@gmail.com",
+      "contact": "987654321",
+      "id": 3
+    },
+    {
+      "name": "Robert",
+      "email": "robert@gmail.com",
+      "contact": "224311577",
+      "id": 4
+    },
+    {
+      "name": "Rocky",
+      "email": "rocky@gmail.com",
+      "contact": "384268432",
+      "id": 6
+    },
+    {
+      "name": "Ramesh",
+      "email": "ramesh@gmail.com",
+      "contact": "34686434334",
+      "id": 7
+    },
+    {
+      "name": "suresh",
+      "email": "suresh@gmail.com",
+      "contact": "6483334323",
+      "id": 8
+    },
+    {
+      "name": "subhash",
+      "email": "s@gmail.com",
+      "contact": "1234",
+      "id": 9
+    },
+    {
+      "name": "Chethan Kumar V",
+      "emailID": "chethanvemareddy@gmail.com",
+      "contact": "9148754406",
+      "id": 10
+    }
+  ]
+}
